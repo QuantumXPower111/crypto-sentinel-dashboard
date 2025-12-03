@@ -1,3 +1,23 @@
+# Setup Instructions for Visual Studio Code
+
+Based on the provided PDF walkthrough for similar Python-based applications (adapted for this Streamlit dashboard), here's an optimized setup process in VS Code. 
+This focuses on a clean, efficient development environment with virtual environments, formatting, debugging, and integration for Streamlit, Web3, and PyTorch. 
+No Docker is needed unless you plan to containerize for deployment, as this is a standalone script.
+
+Install Required Software:
+Visual Studio Code (latest version).
+Python 3.9+ (download from python.org).
+Git (for version control).
+
+Install VS Code Extensions (Search in Extensions panel: Ctrl+Shift+X):
+Python (Microsoft) – For IntelliSense and running code.
+Pylance – Enhanced type checking and auto-completions.
+Black Formatter – Auto-formatting on save.
+autoDocstring – Generate docstrings.
+Jupyter – If you want to test PyTorch snippets interactively.
+Thunder Client – For testing APIs (e.g., Venice AI or CoinGecko).
+Python Environment Manager – For virtual env handling.
+
 streamlit
 pycoingecko
 web3
